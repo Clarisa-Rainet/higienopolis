@@ -752,7 +752,7 @@ a {
 }
 
 .splide__arrow {
-  background: #ffffff;
+  background: transparent;
   border: 0;
   height: 10px;
   cursor: pointer;
