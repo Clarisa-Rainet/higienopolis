@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from 'react'
 
-import whats from '../../assets/icon/whatsapp.png'
+import whats from '../../assets/icon/WhatsApp.png'
 
 export default function Page(props) {
   return (
