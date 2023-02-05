@@ -107,7 +107,7 @@ export default function Page(props) {
                       className="noHover"
                       target="_blank"
                       href='https://www.google.com/maps/place/Tv.+Piau%C3%AD,+60+-+Higien%C3%B3polis,+Piracicaba+-+SP,+13424-345/@-22.7432293,-47.6458528,17z/data=!3m1!4b1!4m6!3m5!1s0x94c6305645329993:0x9af384699cee0332!8m2!3d-22.7432293!4d-47.6436641!16s%2Fg%2F11h_f5zxk6" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy'>
-                      <img src={mapa} className="mapa px-6 pt-1" />
+                      <img src={mapa} className="mapa pt-1" />
                     </a>
                   </div>
                   <div className="mapa-address">
