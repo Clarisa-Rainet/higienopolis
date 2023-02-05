@@ -40,7 +40,7 @@ export default function Page(props) {
           <div className="bg-topo">
             <Fade>
               <div className="flex flex-col definicao flex-col">
-                <div className="top-img py-16">
+                <div className="top-img">
                   <img
                     src={logo}
                     className="flex"
@@ -54,7 +54,7 @@ export default function Page(props) {
                   <a
                     target="_blank"
                     href="https://api.whatsapp.com/send?phone=5519996965525" >
-                    <img src={cta} className="iflex mg-topo pt-4" />
+                    <img src={cta} className="flex img-topo pt-4" />
                   </a>
                 </div>
 

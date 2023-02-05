@@ -25,7 +25,8 @@ export default function Page(props) {
             <img src={infraestrutura} className="flex justify-center planta" />
           </div>
           <div className="leading-relaxed planta-text">
-            Apartamento com sala de estar e jantar, cozinha, lavanderia, 3 dormitórios, sendo 1 suíte.
+            Apartamento com sala de estar e jantar, cozinha, lavanderia, 
+            3 dormitórios, sendo 1 suíte.
           </div>
         </div>
 
@@ -53,7 +54,8 @@ export default function Page(props) {
               <img src={infraestrutura} className="flex justify-center planta" />
             </div>
             <div className="flex planta-text">
-              Apartamento com sala de estar e jantar, cozinha, lavanderia, 3 dormitórios, sendo 1 suíte.
+              Apartamento com sala de estar e jantar, cozinha, lavanderia, 
+              <br/>3 dormitórios, sendo 1 suíte.
             </div>
           </div>
           <div className="flex justify-center">

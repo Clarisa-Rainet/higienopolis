@@ -394,6 +394,7 @@ a {
   height: 22rem;
   overflow: hidden;
 }
+
 .img-bloco img {
   max-width: 100%;
   -moz-transition: all 0.3s;
@@ -810,6 +811,7 @@ a {
   transform: translateY(-50%);
   z-index: 1;
 }
+
 .splide {
   padding: 1rem 0rem 1rem 4rem;
 }
@@ -879,6 +881,17 @@ a {
 }
 
 @media (max-width: 420px) {
+  .bg-topo {
+    background: url(../assets/background/bg_topoMobile.png) center center no-repeat;
+    background-size: cover;
+    height: 70vh;
+  }
+
+  .bg-descricao {
+    background: url(../assets/background/bg_descricaoMobile.png) center no-repeat;
+    background-size: cover;
+  }
+
   .bg-galeria {
     background: url(../assets/background/bg_galeriaMobile.png) center center no-repeat;
     background-size: cover;
@@ -889,25 +902,15 @@ a {
     background-size: cover;
   }
 
-  .bg-descricao {
-    background: url(../assets/background/bg_descricaoMobile.png) center no-repeat;
-    background-size: cover;
-  }
-
   .bg-planta {
     background: url(../assets/background/bg_plantaMobile.png) center no-repeat;
     background-size: cover;
   }
 
-  .bg-topo {
-    background: url(../assets/background/bg_topoMobile.png) center left no-repeat;
-    background-size: cover;
-    height: 70vh;
-  }
-
   .bg-mapa {
     background: url(../assets/background/bg_mapaMobile.png) center left no-repeat;
     background-size: cover;
+    padding: 0rem 0rem 0rem 0rem;
   }
 
   .rodape-title {
@@ -919,18 +922,24 @@ a {
   }
 
   .definicao {
-    padding: 2rem 2rem 0rem 2rem;
+    padding: 2rem 4rem 0rem 0rem;
     justify-content: center;
     align-items: center;
   }
 
   .text-topo {
-    font-size: 1.75rem;
+    font-size: 1.2rem;
     padding: 1rem 0rem;
   }
 
+  .top-img {
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+  }
+
   .img-topo {
-    width: 80%;
+    width: 14rem;
+    padding-left: 0rem;
   }
 
   .rio-claro {
@@ -955,6 +964,7 @@ a {
   .img-galeria {
     width: auto;
     padding: 2rem 8rem 0rem 2rem;
+    margin-bottom: -2rem;
   }
 
   .img-descricao {
@@ -997,13 +1007,22 @@ a {
     align-items: center;
     justify-content: center;
     width: 2rem;
+    height: 3rem;
+  }
+
+  .diferencial-box1 {
+    padding-bottom: 0.8rem;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 4rem;
   }
 
   .diferencial-item {
     display: flex;
     align-items: center;
     padding: 0.5rem 0rem;
-    margin: 0.25rem 0rem 0.25rem 1rem;
+    margin: 0.25rem 0rem 0.25rem -1rem;
     width: 5rem;
     height: 4rem;
   }
@@ -1019,25 +1038,64 @@ a {
     background-color: #9c95ca;
     padding: 0.5rem 0rem 0rem 0rem;
     margin: 0.25rem 0rem;
-    width: 7rem;
+    width: 4rem;
+    height: 4rem;
+  }
+  .diferencial-item2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    border-radius: 5rem;
+    border-color: #9c95ca;
+    background-color: #9c95ca;
+    padding: 0.5rem 0rem 0rem 0rem;
+    margin: 0.25rem 0rem;
+    width: 5rem;
+    height: 4rem;
+  }
+  .diferencial-item3 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    border-radius: 5rem;
+    border-color: #9c95ca;
+    background-color: #9c95ca;
+    padding: 0.5rem 0rem 0rem 0rem;
+    margin: 0.25rem 0rem;
+    width: 4rem;
     height: 4rem;
   }
 
   .diferencial-content {
     display: flex;
-    padding: 0rem 0.3rem;
+    margin-left: -4.5rem;
   }
-
+  .diferencial-content2 {
+    display: flex;
+    padding: 0rem 0rem 0rem 1.75rem;
+  }
   .diferencial-text {
     font-size: 0.6em;
     text-align: start;
     text-transform: uppercase;
     font-family: Montserrat-Bold;
+    padding-left: 0px;
+    padding-right: 20px;
   }
 
   .img-diferencial {
     width: 100%;
-    padding: 0rem 3rem;
+    padding: 0rem 5rem;
+  }
+
+  .diferencial-image {
+    padding-left: 0rem;
+    width: 18rem;
+    padding-bottom: 1rem;
   }
 
   .img-bloco {
@@ -1060,7 +1118,7 @@ a {
   }
 
   .fotos-text {
-    font-size: 0.75em;
+    font-size: 1em;
     color: white;
     text-align: center;
     font-family: "Montserrat-Medium";
@@ -1074,7 +1132,7 @@ a {
 
   .planta-text {
     font-size: 0.75em;
-    padding: 0rem 1rem;
+    padding: 0rem 2rem;
     font-family: "Montserrat-Medium";
   }
 
@@ -1090,8 +1148,8 @@ a {
 
   .mapa {
     width: 100%;
-    height: 8rem;
-    padding: 0.25rem 2rem;
+    height: 12rem;
+    padding: 0rem 0rem;
   }
 
   .mapa-visite {
@@ -1127,13 +1185,15 @@ a {
   }
 
   .mapa-address {
-    font-size: 0.8em;
-    padding-bottom: 10px;
+    font-size: 1em;
+    text-align: end;
+    font-family: "Montserrat-Bold";
+    padding: 0.5rem 0rem 2rem 0rem;
   }
 
   .img-mapa {
     width: 100%;
-    padding: 1rem 6rem;
+    padding: 0rem 5rem 1rem 5rem;
   }
 
 
@@ -1156,7 +1216,7 @@ a {
 
   .areaEspera {
     width: 8rem;
-    padding: 1rem 0rem 1rem 2rem;
+    padding: 1rem 0.5rem 1rem 1rem;
     height: 8rem;
     margin-top: 4rem;
   }
@@ -1175,6 +1235,41 @@ a {
   .whatsapp {
     width: 4.5rem;
   }
+
+  .splide__pagination__page.is-active {
+    background-color: #ffffff !important;
+  }
+
+  .splide__arrow svg {
+    fill: #ffffff !important;
+    justify-content: center;
+  }
+
+  .splide__arrow {
+    background: transparent;
+    border: 0;
+    height: 10px;
+    cursor: pointer;
+    margin: 0 1.5rem 0 0rem;
+    padding: 0;
+    transition: background-color .2s ease, color .2s ease;
+    width: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+
+  .splide__slide img {
+    max-width: 12rem;
+    height: 16rem;
+    padding: 0rem 1.1rem;
+  }
+
+  .splide {
+    padding: 1rem 0rem 1rem 4rem;
+  }
+
 }
 
 /* SCROLLBAR */
