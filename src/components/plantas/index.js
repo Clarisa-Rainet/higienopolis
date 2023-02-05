@@ -19,14 +19,13 @@ export default function Page(props) {
 
   return (
     isMobile ?
-      <div className="bg-plantaMobile py-6">
+      <div className="bg-planta py-6">
         <div className="flex-auto flex-col" >
           <div className="flex justify-center items-center">
             <img src={infraestrutura} className="flex justify-center planta" />
           </div>
           <div className="leading-relaxed planta-text">
-            Apartamento com sala de estar | jantar, cozinha, <br />
-            lavanderia, e 3 dormitórios sendo 1 suíte.
+            Apartamento com sala de estar e jantar, cozinha, lavanderia, 3 dormitórios, sendo 1 suíte.
           </div>
         </div>
 
@@ -54,14 +53,13 @@ export default function Page(props) {
               <img src={infraestrutura} className="flex justify-center planta" />
             </div>
             <div className="flex planta-text">
-              Apartamento com sala de estar | jantar, cozinha,<br />
-              lavanderia, e 3 dormitórios sendo 1 suíte.
+              Apartamento com sala de estar e jantar, cozinha, lavanderia, 3 dormitórios, sendo 1 suíte.
             </div>
           </div>
           <div className="flex justify-center">
             <div className="flex content-center justify-center">
               <div className="flex justify-center items-center">
-                <img src={planta} className="flex justify-center planta" />
+                <img src={planta} className="flex justify-center image-planta" />
               </div>
             </div>
           </div>

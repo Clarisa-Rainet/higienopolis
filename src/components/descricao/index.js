@@ -38,7 +38,7 @@ export default function Page(props) {
 
   return (
     isMobile ?
-      <div className="bg-descricaoMobile">
+      <div className="bg-descricao">
         <Fade>
           <div className="flex justify-center">
             <img src={vida} className="flex img-descricao justify-center" />
@@ -106,7 +106,7 @@ export default function Page(props) {
                 </div>
               </div>
               <div className="flex-auto flex-col ajustes">
-                <div className="flex justify-center	pt-20 pb-10">
+                <div className="flex justify-center	pt-20">
                   <img src={vida} className="flex img-descricao justify-center" />
                 </div>
                 <div className="flex text-descricao pb-6 justify-center">
@@ -117,7 +117,6 @@ export default function Page(props) {
                   hipermercado, Hospital Santa Casa, comércios
                   e prestações de serviços em geral.
                 </div>
-                <div className="flex flex-grid descricao-content items-center pl-20">
                   <div className="flex-grid descricao-content">
                     <div className="flex-col descricao-item">
                       <img src={quarto} className="descricao-box" />
@@ -140,14 +139,13 @@ export default function Page(props) {
                       </div>
                     </div>
 
-                    <div className="flex-col descricao-item ml-14">
+                    <div className="flex-col descricao-item">
                       <img src={suite} className="descricao-box1" />
                       <div className="flex descricao-text">
                         Unidades <br />com 1 suíte
                       </div>
                     </div>
                   </div>
-                </div>
 
                 <div className="flex justify-center">
                   <a

@@ -20,11 +20,11 @@ export default function Page(props) {
   
   return (
     isMobile ?
-      <div className="bg-diferencialMobile">
+      <div className="bg-diferencial">
         <Fade>
           <div className="flex flex-col justify-center items-center">
             <div className="justify-center">
-              <img src={diferencial} className="p-10" />
+              <img src={diferencial} className="p-10 diferencial-image" />
             </div>
           </div>
 
@@ -34,13 +34,13 @@ export default function Page(props) {
                 <img src={elevadores} className="flex diferencial-box" />
               </div>
               <div className="flex diferencial-text items-center">
-                TODOS TEM ACESSO A 2 ELEVADORES
+                Todos tem acesso a 2 elevadores
               </div>
               <div className="flex diferencial-item">
                 <img src={churrasqueira} className="flex diferencial-box" />
               </div>
               <div className="flex diferencial-text items-center">
-                VARANDA COM CHURRASQUEIRA
+                Varanda com churrasqueira
               </div>
             </div>
 
@@ -49,7 +49,7 @@ export default function Page(props) {
                 <img src={localizacao} className="flex diferencial-box" />
               </div>
               <div className="flex diferencial-text items-center">
-                LOCALIZAÇAO PRIVILEGIADA, À 5 MINUTOS DO  CENTRO
+                Localização privilegiada, à 5 minutos do centro
               </div>
 
 
@@ -57,7 +57,7 @@ export default function Page(props) {
                 <img src={planta} className="flex diferencial-box" />
               </div>
               <div className="flex diferencial-text items-center">
-                ENTREGUE COMPLETO COM PISOS E REVESTIMENTOS
+                Entregue completo com pisos e revestimentos
               </div>
             </div>
           </div>
@@ -75,25 +75,25 @@ export default function Page(props) {
       <ScrollableAnchor id={'diferencial'}>
         <div className="bg-diferencial py-20">
           <Fade>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-start">
               <div className="justify-center pb-8">
-                <img src={diferencial} className="w-auto" />
+                <img src={diferencial} className="w-auto diferencial-image" />
               </div>
 
-              <div className="flex flex-col diferencial-content items-center">
+              <div className="flex flex-col diferencial-content">
                 <div className="flex-grid diferencial-content">
                   <div className="flex diferencial-item">
                     <img src={elevadores} className="flex diferencial-box" />
                   </div>
                   <div className="flex diferencial-text items-center pr-20">
-                    TODOS TEM ACESSO
-                    <br />A 2 ELEVADORES
+                    Todos tem acesso
+                    <br />a 2 elevadores
                   </div>
-                  <div className="flex diferencial-item">
-                    <img src={churrasqueira} className="flex diferencial-box" />
+                  <div className="flex diferencial-item1">
+                    <img src={churrasqueira} className="flex diferencial-box1" />
                   </div>
                   <div className="flex diferencial-text items-center pr-32">
-                    VARANDA COM <br />CHURRASQUEIRA
+                    Varanda com <br />churrasqueira
                   </div>
                 </div>
 
@@ -102,8 +102,8 @@ export default function Page(props) {
                     <img src={localizacao} className="flex diferencial-box" />
                   </div>
                   <div className="flex diferencial-text items-center">
-                    LOCALIZAÇAO PRIVILEGIADA,
-                    <br />À 5 MINUTOS DO  CENTRO
+                    Localização privilegiada,
+                    <br />à 5 minutos do centro
                   </div>
 
 
@@ -111,12 +111,12 @@ export default function Page(props) {
                     <img src={planta} className="flex diferencial-box" />
                   </div>
                   <div className="flex diferencial-text items-center">
-                    ENTREGUE COMPLETO
-                    <br />COM PISOS E REVESTIMENTOS
+                    Entregue completo
+                    <br />com pisos e revestimentos
                   </div>
                 </div>
 
-                <div className="flex justify-center self-center pt-10">
+                <div className="flex pt-10 justify-center">
                   <a
                     target="_blank"
                     href="https://api.whatsapp.com/send?phone=5519996965525" >

@@ -19,7 +19,7 @@ export default function Page(props) {
   return (
     isMobile ?
       <ScrollableAnchor id={'mapa'}>
-        <div className="flex flex-col bg-mapaMobile">
+        <div className="flex flex-col bg-mapa">
           <Fade duration={2000}>
             <div className="flex flex-col">
               <div className="flex flex-wrap">
@@ -34,29 +34,29 @@ export default function Page(props) {
                   momentos de convívio social.
                 </div>
               </div>
-                <div className="flex flex-grid">
-                  <div className="flex">
-                    <div className='flex-auto'>
-                      <img src={salaJogos} className="salaJogos" />
-                    </div>
-                  </div>
-                  <div className="flex flex-row">
-                    <div className='flex-auto'>
-                      <img src={playground} className="playground" />
-                    </div>
+              <div className="flex flex-grid">
+                <div className="flex">
+                  <div className='flex-auto'>
+                    <img src={salaJogos} className="salaJogos" />
                   </div>
                 </div>
+                <div className="flex flex-row">
+                  <div className='flex-auto'>
+                    <img src={playground} className="playground" />
+                  </div>
+                </div>
+              </div>
               <div className="flex flex-wrap">
                 <div className="flex-col">
                   <div className="flex flex-col items-center justify-center">
                     <a
                       className="noHover"
                       target="_blank"
-                      href='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d921.8693852778597!2d-47.54467887082749!3d-22.4486821595993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c7d0bc1f50b67b%3A0x9443b97a3819e661!2sR.%20Tr%C3%AAs%2C%20Santa%20Gertrudes%20-%20SP%2C%2013510-000!5e0!3m2!1spt-BR!2sbr!4v1671659272434!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy'>
+                      href='https://www.google.com/maps/place/Tv.+Piau%C3%AD,+60+-+Higien%C3%B3polis,+Piracicaba+-+SP,+13424-345/@-22.7432293,-47.6458528,17z/data=!3m1!4b1!4m6!3m5!1s0x94c6305645329993:0x9af384699cee0332!8m2!3d-22.7432293!4d-47.6436641!16s%2Fg%2F11h_f5zxk6" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy'>
                       <img src={mapa} className="mapa" />
                     </a>
                     <div className="mapa-address">
-                    Travessa Piauí, 60, Bairro Higienópolis  <br /> Piracicaba - SP
+                      Travessa Piauí, 60, Bairro Higienópolis  <br /> Piracicaba - SP
                     </div>
                   </div>
                   <div className="relative flex flex-auto justify-center self-center">
@@ -106,7 +106,7 @@ export default function Page(props) {
                     <a
                       className="noHover"
                       target="_blank"
-                      href='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d921.8693852778597!2d-47.54467887082749!3d-22.4486821595993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c7d0bc1f50b67b%3A0x9443b97a3819e661!2sR.%20Tr%C3%AAs%2C%20Santa%20Gertrudes%20-%20SP%2C%2013510-000!5e0!3m2!1spt-BR!2sbr!4v1671659272434!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy'>
+                      href='https://www.google.com/maps/place/Tv.+Piau%C3%AD,+60+-+Higien%C3%B3polis,+Piracicaba+-+SP,+13424-345/@-22.7432293,-47.6458528,17z/data=!3m1!4b1!4m6!3m5!1s0x94c6305645329993:0x9af384699cee0332!8m2!3d-22.7432293!4d-47.6436641!16s%2Fg%2F11h_f5zxk6" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy'>
                       <img src={mapa} className="mapa px-6 pt-1" />
                     </a>
                   </div>

@@ -37,7 +37,7 @@ export default function Page(props) {
     isMobile ?
       <ScrollableAnchor id={'home'}>
         <div className="flex flex-col">
-          <div className="bg-topoMobile">
+          <div className="bg-topo">
             <Fade>
               <div className="flex flex-col definicao flex-col">
                 <div className="top-img py-16">
@@ -75,7 +75,7 @@ export default function Page(props) {
                   <img
                     src={logo}
                     className="flex"
-                    width="500"
+                    width="450"
                   />
                 </div>
                 <div className="text-topo self-start">

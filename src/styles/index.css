@@ -166,7 +166,7 @@ a {
 }
 
 .bg-topo {
-  background: url(../assets/background/bg_topo1.png) center center no-repeat;
+  background: url(../assets/background/bg_topo.png) center center no-repeat;
   background-size: cover;
   height: 100vh;
 }
@@ -224,16 +224,15 @@ a {
 .text-topo {
   color: #ffffff;
   text-transform: uppercase;
-  font-size: 2.25rem;
+  font-size: 2rem;
   font-family: Montserrat-Bold;
   text-align: center;
   padding: 1rem 0rem;
-  margin-left: -14px;
 }
 
 .img-topo {
-  width: 100%;
-  padding-left: 3rem;
+  width: 24rem;
+  padding-left: 5rem;
 }
 
 .rio-claro {
@@ -245,17 +244,18 @@ a {
   font-size: 1.25rem;
   font-family: "Montserrat-Medium";
   text-align: center;
-  padding: 1rem 4rem 0rem 10rem;
+  padding: 1rem 1rem 0rem 2rem;
 }
 
 .img-icones {
   width: 40rem;
-  padding: 4rem 0rem 0rem 10rem;
+  height: fit-content;
+  padding: 7rem 0rem 0rem 10rem;
 }
 
 .ajustes {
   justify-items: center;
-  padding-right: 7rem;
+  padding: 0rem 8rem 0rem 2rem;
 }
 
 .descricao1-img {
@@ -263,13 +263,15 @@ a {
 }
 
 .descricao-img {
-  width: 90%;
-  padding: 1rem 4rem 0rem 10rem;
+  width: 26rem;
+  padding: 1rem 0rem 0rem 1rem;
 }
+
 .img-galeria {
   width: auto;
   padding: 2rem 0rem 0rem 14rem;
 }
+
 .img-descricao {
   width: 100%;
   height: 50%;
@@ -286,7 +288,7 @@ a {
 .descricao-box {
   align-items: center;
   justify-content: center;
-  width: 4rem;
+  width: 4.5rem;
   padding-bottom: 0.5rem;
 }
 
@@ -302,12 +304,12 @@ a {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 1rem 2rem;
+  padding: 1rem;
 }
 
 .descricao-content {
   display: flex;
-  justify-content: start;
+  justify-content: center;
 }
 
 .descricao-text {
@@ -320,16 +322,15 @@ a {
 }
 
 .diferencial-box {
-  padding-bottom: 0.5rem;
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 .diferencial-box1 {
   align-items: center;
   justify-content: center;
   width: 4rem;
-  height: 4rem;
+  height: 5rem;
   padding-bottom: 0.5rem;
 }
 
@@ -339,18 +340,33 @@ a {
   align-items: center;
   justify-content: center;
   align-content: center;
-  padding: 1rem 2rem;
+  padding: 1.25rem 1.25rem;
   border-radius: 5rem;
   border-color: #9c95ca;
   background-color: #9c95ca;
   width: 6rem;
   height: 6rem;
-  margin: 0px 0px 5px 40px;
+  margin: 0px 0px 1rem 3rem;
+}
+
+.diferencial-item1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  padding: 1.25rem 1.25rem;
+  border-radius: 5rem;
+  border-color: #9c95ca;
+  background-color: #9c95ca;
+  width: 6rem;
+  height: 6rem;
+  margin: 0px 0px 1rem 2.25rem;
 }
 
 .diferencial-content {
   display: flex;
-  justify-content: center;
+  padding-left: 4rem;
 }
 
 .diferencial-text {
@@ -364,8 +380,31 @@ a {
 }
 
 .img-diferencial {
-  width: 100%;
-  padding: 1rem 30rem;
+  width: 30rem;
+  padding: 0rem;
+  padding-left: 5rem;
+}
+
+.diferencial-image {
+  padding-left: 16rem;
+}
+
+.img-bloco {
+  width: 22rem;
+  height: 22rem;
+  overflow: hidden;
+}
+.img-bloco img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.img-bloco:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .fotos-text {
@@ -389,13 +428,17 @@ a {
   color: #ffffff;
   text-align: center;
   font-family: Montserrat-Medium;
-  padding: 0rem 1rem 2rem 1rem;
+  padding: 0rem 1rem;
   justify-content: center;
 
 }
 
+.image-planta {
+  width: 50rem;
+}
+
 .planta {
-  width: 80%;
+  width: 38rem;
   justify-content: center;
   align-items: center;
 }
@@ -448,7 +491,6 @@ a {
 
 .img-planta {
   width: 80%;
-  padding: 2rem 0rem;
 }
 
 .mapa {
@@ -766,7 +808,9 @@ a {
   transform: translateY(-50%);
   z-index: 1;
 }
-
+.splide {
+  padding: 1rem 0rem 1rem 4rem;
+}
 
 @media (max-width: 1600px) {
   .bg-mapa {
@@ -833,33 +877,33 @@ a {
 }
 
 @media (max-width: 420px) {
-  .bg-galeriaMobile {
+  .bg-galeria {
     background: url(../assets/background/bg_galeriaMobile.png) center center no-repeat;
     background-size: cover;
   }
 
-  .bg-diferencialMobile {
+  .bg-diferencial {
     background: url(../assets/background/bg_diferenciaisMobile.png) center top no-repeat;
     background-size: cover;
   }
 
-  .bg-descricaoMobile {
+  .bg-descricao {
     background: url(../assets/background/bg_descricaoMobile.png) center no-repeat;
     background-size: cover;
   }
 
-  .bg-plantaMobile {
+  .bg-planta {
     background: url(../assets/background/bg_plantaMobile.png) center no-repeat;
     background-size: cover;
   }
 
-  .bg-topoMobile {
+  .bg-topo {
     background: url(../assets/background/bg_topoMobile.png) center left no-repeat;
     background-size: cover;
     height: 70vh;
   }
 
-  .bg-mapaMobile {
+  .bg-mapa {
     background: url(../assets/background/bg_mapaMobile.png) center left no-repeat;
     background-size: cover;
   }
@@ -952,6 +996,7 @@ a {
     justify-content: center;
     width: 2rem;
   }
+
   .diferencial-item {
     display: flex;
     align-items: center;
@@ -960,6 +1005,7 @@ a {
     width: 5rem;
     height: 4rem;
   }
+
   .diferencial-item1 {
     display: flex;
     align-items: center;
@@ -974,19 +1020,41 @@ a {
     width: 7rem;
     height: 4rem;
   }
+
   .diferencial-content {
     display: flex;
     padding: 0rem 0.3rem;
   }
+
   .diferencial-text {
     font-size: 0.6em;
     text-align: start;
     text-transform: uppercase;
     font-family: Montserrat-Bold;
   }
+
   .img-diferencial {
     width: 100%;
     padding: 0rem 3rem;
+  }
+
+  .img-bloco {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .img-bloco img {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .img-bloco:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
   }
 
   .fotos-text {

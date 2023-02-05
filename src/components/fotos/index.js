@@ -70,7 +70,7 @@ export default function Page(props) {
 
   return (
     isMobile ?
-      <div className="bg-galeriaMobile">
+      <div className="bg-galeria">
         <div className="flex">
             <img src={galeria} className="flex img-galeria" />
         </div>
@@ -94,7 +94,7 @@ export default function Page(props) {
             </Splide>
           </div>
           <div className="fotos-text pb-10">
-            <div className="flex">São 88,42m2 bem distribuídos com 3 dormitórios, sala de estar e jantar, cozinha,
+            <div className="flex">São 88,42 m² bem distribuídos com 3 dormitórios, sala de estar e jantar, cozinha,
               área de serviço e uma excelente varanda gourmet com churrasqueira para você
               aproveitar seus melhores momentos de descanso e lazer!          </div>
 
@@ -124,42 +124,42 @@ export default function Page(props) {
                 }}
               >
                 <SplideSlide className="flex items-center">
-                  <div className='flex flex-grid pl-10'>
-                    <div className="flex">
+                  <div className='flex flex-grid'>
+                    <div className="flex img-bloco">
                       <img src={sala} />
                     </div>
                   </div>
-                  <div className="flex px-1">
+                  <div className="flex img-bloco px-1">
                     <img src={cozinha} />
                   </div>
-                  <div className="flex">
+                  <div className="flex img-bloco">
                     <img src={quarto} />
                   </div>
                 </SplideSlide>
 
                 <SplideSlide className="flex items-center">
-                  <div className='flex flex-grid pl-10'>
-                    <div className="flex">
+                  <div className='flex flex-grid'>
+                    <div className="flex img-bloco">
                       <img src={foto1} />
                     </div>
-                    <div className="flex px-1">
+                    <div className="flex img-bloco px-1">
                       <img src={foto3} />
                     </div>
-                    <div className="flex">
+                    <div className="flex img-bloco">
                       <img src={foto4} />
                     </div>
                   </div>
                 </SplideSlide>
 
                 <SplideSlide className="flex items-center">
-                  <div className='flex flex-grid pl-10'>
-                    <div className="flex">
+                  <div className='flex flex-grid'>
+                    <div className="flex img-bloco">
                       <img src={foto5} />
                     </div>
-                    <div className="flex px-1">
+                    <div className="flex img-bloco px-1">
                       <img src={foto7} />
                     </div>
-                    <div className="flex">
+                    <div className="flex img-bloco">
                       <img src={foto8} />
                     </div>
                   </div>
@@ -167,29 +167,29 @@ export default function Page(props) {
                 </SplideSlide>
 
                 <SplideSlide className="flex items-center">
-                  <div className='flex flex-grid pl-10'>
-                    <div className="flex">
+                  <div className='flex flex-grid'>
+                    <div className="flex img-bloco">
                       <img src={foto9} />
                     </div>
                   </div>
-                    <div className="flex px-1">
+                    <div className="flex img-bloco px-1">
                       <img src={foto10} />
                     </div>
-                    <div className="flex">
+                    <div className="flex img-bloco">
                       <img src={foto11} />
                     </div>
 
                 </SplideSlide>
 
                 <SplideSlide className="flex items-center">
-                    <div className='flex flex-grid pl-10'>
-                      <div className="flex">
+                    <div className='flex flex-grid'>
+                      <div className="flex img-bloco">
                         <img src={foto12} />
                       </div>
-                      <div className="flex px-1">
+                      <div className="flex img-bloco px-1">
                         <img src={foto13} />
                       </div>
-                      <div className="flex">
+                      <div className="flex img-bloco">
                         <img src={foto14} />
                       </div>
                   </div>
@@ -199,7 +199,7 @@ export default function Page(props) {
             </div>
           </div >
           <div className="fotos-text">
-            <div className="flex">São 88,42m² bem distribuídos com 3 dormitórios, sala de estar e jantar, cozinha, área de serviço e uma excelente varanda gourmet com churrasqueira para você
+            <div className="flex">São 88,42 m² bem distribuídos com 3 dormitórios, sala de estar e jantar, cozinha, área de serviço e uma excelente varanda gourmet com churrasqueira para você
               aproveitar seus melhores momentos de descanso e lazer!
             </div>
           </div>
