@@ -1261,9 +1261,9 @@ a {
   }
 
   .splide__slide img {
-    max-width: 13rem;
+    max-width: 14rem;
     height: 16rem;
-    padding: 0rem 1.6rem;
+    padding: 0 0.75rem;
   }
 
   .splide {

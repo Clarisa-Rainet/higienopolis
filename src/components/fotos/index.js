@@ -84,8 +84,8 @@ export default function Page(props) {
                 height: 'auto',
                 gap: '0rem',
                 perPage: 2,
-                pagination: false,
-                arrows: true,
+                pagination: true,
+                arrows: false,
                 type: 'loop',
               }}
             >
