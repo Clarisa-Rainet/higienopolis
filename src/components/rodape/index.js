@@ -50,13 +50,15 @@ export default function Page(props) {
           <div className="flex line"></div>
           <div className="p-4">
             <div className="rodape-title">
-              Todas as imagens utilizadas nesta página são meramente ilustrativas. Possíveis alterações de projeto serão executadas de acordo
-              com o Memorial Descritivo do empreendimento.
+              {/* Todas as imagens utilizadas nesta página são meramente ilustrativas. Possíveis alterações de projeto serão executadas de acordo
+              com o Memorial Descritivo do empreendimento. */}
+              Incorporação registrada sob Nº R.08 da matricula 77185 do oficial de registro de imóveis de Piracicaba - Estado de São Paulo, nos termos da Lei 4591/64.
             </div>
           </div>
         </div>
         <div className="rodape-text">
-          Incorporação registrada sob Nº R.08 da matricula 77185 do oficial de registro de imóveis de Piracicaba - Estado de São Paulo, nos termos da Lei 4591/64.      </div>
+          Copywriting e desenvolvido por Huma Criativa
+        </div>
       </div>
       :
       <div className="flex flex-col">
@@ -93,13 +95,15 @@ export default function Page(props) {
           <div className="flex line"></div>
           <div className="p-4">
             <div className="rodape-title">
-              Todas as imagens utilizadas nesta página são meramente ilustrativas. Possíveis alterações de projeto serão executadas de acordo
-              com o Memorial Descritivo do empreendimento.
+              {/* Todas as imagens utilizadas nesta página são meramente ilustrativas. Possíveis alterações de projeto serão executadas de acordo
+              com o Memorial Descritivo do empreendimento. */}
+              Incorporação registrada sob Nº R.08 da matricula 77185 do oficial de registro de imóveis de Piracicaba - Estado de São Paulo, nos termos da Lei 4591/64.
             </div>
           </div>
         </div>
         <div className="rodape-text">
-          Incorporação registrada sob Nº R.08 da matricula 77185 do oficial de registro de imóveis de Piracicaba - Estado de São Paulo, nos termos da Lei 4591/64.      </div>
+          Copywriting e desenvolvido por Huma Criativa
+        </div>
       </div>
   )
 }

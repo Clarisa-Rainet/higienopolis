@@ -44,12 +44,7 @@ export default function Page(props) {
             <img src={vida} className="flex img-descricao justify-center" />
           </div>
           <div className="flex text-descricao pb-6 justify-center">
-            No Higienópolis Edifício você vive com conforto
-            e segurança. A 5 minutos do centro de Piracicaba,
-            o empreendimento foi construído em uma região
-            privilegiada da cidade, próximo ao Teatro Municipal,
-            hipermercado, Hospital Santa Casa, comércios
-            e prestações de serviços em geral.
+          No Higienópolis Edifício você vive com conforto e segurança. A 5 minutos do centro de Piracicaba, o empreendimento foi construído em uma região privilegiada da cidade, próximo ao Teatro Municipal, supermercado, Hospital Santa Casa, comércios e serviços em geral.
           </div>
           <div className="flex">
             <div className="flex img-icones">
@@ -110,42 +105,37 @@ export default function Page(props) {
                   <img src={vida} className="flex img-descricao justify-center" />
                 </div>
                 <div className="flex text-descricao pb-6 justify-center">
-                  No Higienópolis Edifício você vive com conforto
-                  e segurança. A 5 minutos do centro de Piracicaba,
-                  o empreendimento foi construído em uma região
-                  privilegiada da cidade, próximo ao Teatro Municipal,
-                  hipermercado, Hospital Santa Casa, comércios
-                  e prestações de serviços em geral.
+                  No Higienópolis Edifício você vive com conforto e segurança. A 5 minutos do centro de Piracicaba, o empreendimento foi construído em uma região privilegiada da cidade, próximo ao Teatro Municipal, supermercado, Hospital Santa Casa, comércios e serviços em geral.
                 </div>
-                  <div className="flex-grid descricao-content">
-                    <div className="flex-col descricao-item">
-                      <img src={quarto} className="descricao-box" />
-                      <div className="flex descricao-text">
-                        Unidades <br />de 3 dorms.
-                      </div>
-                    </div>
-
-                    <div className="flex-col descricao-item">
-                      <img src={area} className="descricao-box" />
-                      <div className="flex descricao-text">
-                        88.42m² de <br />área privativa
-                      </div>
-                    </div>
-
-                    <div className="flex-col descricao-item">
-                      <img src={vagas} className="descricao-box" />
-                      <div className="flex descricao-text">
-                        2 vagas na <br />garagem
-                      </div>
-                    </div>
-
-                    <div className="flex-col descricao-item">
-                      <img src={suite} className="descricao-box1" />
-                      <div className="flex descricao-text">
-                        Unidades <br />com 1 suíte
-                      </div>
+                <div className="flex-grid descricao-content">
+                  <div className="flex-col descricao-item">
+                    <img src={quarto} className="descricao-box" />
+                    <div className="flex descricao-text">
+                      Unidades <br />de 3 dorms.
                     </div>
                   </div>
+
+                  <div className="flex-col descricao-item">
+                    <img src={area} className="descricao-box" />
+                    <div className="flex descricao-text">
+                      88.42m² de <br />área privativa
+                    </div>
+                  </div>
+
+                  <div className="flex-col descricao-item">
+                    <img src={vagas} className="descricao-box" />
+                    <div className="flex descricao-text">
+                      2 vagas na <br />garagem
+                    </div>
+                  </div>
+
+                  <div className="flex-col descricao-item">
+                    <img src={suite} className="descricao-box1" />
+                    <div className="flex descricao-text">
+                      Unidades <br />com 1 suíte
+                    </div>
+                  </div>
+                </div>
 
                 <div className="flex justify-center">
                   <a

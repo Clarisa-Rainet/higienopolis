@@ -27,11 +27,7 @@ export default function Page(props) {
                   <img src={areaEspera} className="areaEspera" />
                 </div>
                 <div className="flex-auto mapa-text">
-                  O residencial conta com salão
-                  de festas, salão de jogos, espaço
-                  mulher, fitness center, playground
-                  para as crianças e jardins para
-                  momentos de convívio social.
+                  O residencial conta com salão de festas, salão de jogos, espaço mulher, fitness center, playground e jardins para momentos de convívio social.
                 </div>
               </div>
               <div className="flex flex-grid">
@@ -52,7 +48,7 @@ export default function Page(props) {
                     <a
                       className="noHover"
                       target="_blank"
-                      href='https://www.google.com/maps/place/Tv.+Piau%C3%AD,+60+-+Higien%C3%B3polis,+Piracicaba+-+SP,+13424-345/@-22.7432293,-47.6458528,17z/data=!3m1!4b1!4m6!3m5!1s0x94c6305645329993:0x9af384699cee0332!8m2!3d-22.7432293!4d-47.6436641!16s%2Fg%2F11h_f5zxk6" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy'>
+                      href='https://www.google.com/maps/place/Edif%C3%ADcio+Higien%C3%B3polis/@-22.7432305,-47.6458585,17z/data=!3m1!4b1!4m6!3m5!1s0x94c6319744817313:0x9990acd3d8df6119!8m2!3d-22.7432355!4d-47.6436698!16s%2Fg%2F11fn527x8z" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy'>
                       <img src={mapa} className="mapa" />
                     </a>
                     <div className="mapa-address">
@@ -97,8 +93,8 @@ export default function Page(props) {
                 <div className="flex flex-col mapa-text">
                   O residencial conta com salão de festas,<br />
                   salão de jogos, espaço mulher, fitness<br />
-                  center, playground para as crianças e jardins<br />
-                  para momentos de convívio social.
+                  center, playground e jardins para<br /> 
+                  momentos de convívio social.
                 </div>
                 <img src={detalhe} className="flex detalhe justify-end" />
                 <div className="flex flex-col">
@@ -106,7 +102,7 @@ export default function Page(props) {
                     <a
                       className="noHover"
                       target="_blank"
-                      href='https://www.google.com/maps/place/Tv.+Piau%C3%AD,+60+-+Higien%C3%B3polis,+Piracicaba+-+SP,+13424-345/@-22.7432293,-47.6458528,17z/data=!3m1!4b1!4m6!3m5!1s0x94c6305645329993:0x9af384699cee0332!8m2!3d-22.7432293!4d-47.6436641!16s%2Fg%2F11h_f5zxk6" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy'>
+                      href='https://www.google.com/maps/place/Edif%C3%ADcio+Higien%C3%B3polis/@-22.7432305,-47.6458585,17z/data=!3m1!4b1!4m6!3m5!1s0x94c6319744817313:0x9990acd3d8df6119!8m2!3d-22.7432355!4d-47.6436698!16s%2Fg%2F11fn527x8z" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy'>
                       <img src={mapa} className="mapa pt-1" />
                     </a>
                   </div>

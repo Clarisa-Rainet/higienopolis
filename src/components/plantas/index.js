@@ -25,8 +25,7 @@ export default function Page(props) {
             <img src={infraestrutura} className="flex justify-center planta" />
           </div>
           <div className="leading-relaxed planta-text">
-            Apartamento com sala de estar e jantar, cozinha, lavanderia, 
-            3 dormitórios, sendo 1 suíte.
+          No Higienópolis Edifício você pode receber as pessoas que ama no conforto do seu lar e fazer um churrasco na sua varanda apreciando a vista dos seus sonhos!
           </div>
         </div>
 
@@ -54,8 +53,9 @@ export default function Page(props) {
               <img src={infraestrutura} className="flex justify-center planta" />
             </div>
             <div className="flex planta-text">
-              Apartamento com sala de estar e jantar, cozinha, lavanderia, 
-              <br/>3 dormitórios, sendo 1 suíte.
+            No Higienópolis Edifício você pode receber s pessoas que ama<br/>  
+            no conforto do seu lar e fazer um churrasco na sua<br/> 
+            varanda apreciando a vista dos seus sonhos!
             </div>
           </div>
           <div className="flex justify-center">

@@ -75,7 +75,7 @@ export default function Page(props) {
             <img src={galeria} className="flex img-galeria" />
         </div>
         <div className='d-flex'>
-          <div className='d-flex col-12'>
+          <div className='d-flex justify-center	 col-12'>
             <Splide
               className="splide-badges col-12"
               options={{
@@ -104,14 +104,14 @@ export default function Page(props) {
       :
       <ScrollableAnchor id={'fotos'}>
         <div className="bg-galeria">
-          <div className="flex">
+          <div className="flex flex-col">
               <img src={galeria} className="flex img-galeria" />
           </div>
           <div class="transition duration-150 ease-out hover:ease-in">
-            <div className="flex flex-col justify-center content-center	items-center	">
+            <div className="flex flex-col justify-center content-center	items-center">
               <Splide
                 ref={ref}
-                className="splide-badges col-12"
+                className="flex splide-badges col-12"
                 options={{
                   rewind: true,
                   width: '80%',
@@ -122,7 +122,7 @@ export default function Page(props) {
                   arrows: !isMobile,
                 }}
               >
-                <SplideSlide className="flex items-center">
+                <SplideSlide className="flex items-center pl-8">
                   <div className='flex flex-grid'>
                     <div className="flex img-bloco">
                       <img src={sala} />
@@ -136,7 +136,7 @@ export default function Page(props) {
                   </div>
                 </SplideSlide>
 
-                <SplideSlide className="flex items-center">
+                <SplideSlide className="flex items-center pl-8">
                   <div className='flex flex-grid'>
                     <div className="flex img-bloco">
                       <img src={foto1} />
@@ -150,7 +150,7 @@ export default function Page(props) {
                   </div>
                 </SplideSlide>
 
-                <SplideSlide className="flex items-center">
+                <SplideSlide className="flex items-center pl-8">
                   <div className='flex flex-grid'>
                     <div className="flex img-bloco">
                       <img src={foto5} />
@@ -165,7 +165,7 @@ export default function Page(props) {
 
                 </SplideSlide>
 
-                <SplideSlide className="flex items-center">
+                <SplideSlide className="flex items-center pl-8">
                   <div className='flex flex-grid'>
                     <div className="flex img-bloco">
                       <img src={foto9} />
@@ -180,7 +180,7 @@ export default function Page(props) {
 
                 </SplideSlide>
 
-                <SplideSlide className="flex items-center">
+                <SplideSlide className="flex items-center pl-8">
                     <div className='flex flex-grid'>
                       <div className="flex img-bloco">
                         <img src={foto12} />

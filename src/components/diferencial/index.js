@@ -34,7 +34,7 @@ export default function Page(props) {
                 <img src={elevadores} className="flex diferencial-box" />
               </div>
               <div className="flex diferencial-text items-center">
-                Todos tem acesso<br/> a 2 elevadores
+                Todos têm acesso<br/> a 2 elevadores
               </div>
               <div className="flex diferencial-item1">
                 <img src={churrasqueira} className="flex diferencial-box1" />
@@ -49,7 +49,7 @@ export default function Page(props) {
                 <img src={localizacao} className="flex diferencial-box" />
               </div>
               <div className="flex diferencial-text items-center">
-                Localização privilegiada,<br/> à 5 minutos do centro
+                Localização privilegiada,<br/> a 5 minutos do centro
               </div>
 
 
@@ -86,7 +86,7 @@ export default function Page(props) {
                     <img src={elevadores} className="flex diferencial-box" />
                   </div>
                   <div className="flex diferencial-text items-center pr-20">
-                    Todos tem acesso
+                    Todos têm acesso
                     <br />a 2 elevadores
                   </div>
                   <div className="flex diferencial-item1">
@@ -103,7 +103,7 @@ export default function Page(props) {
                   </div>
                   <div className="flex diferencial-text items-center">
                     Localização privilegiada,
-                    <br />à 5 minutos do centro
+                    <br />a 5 minutos do centro
                   </div>
 
 
