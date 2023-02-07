@@ -986,8 +986,9 @@ a {
 
   .img-galeria {
     width: 20rem;
-    padding: 2rem 0rem 0rem 2rem;
+    padding: 2rem 0rem 0rem 1rem;
     margin-bottom: -2rem;
+    margin-left: 0rem;
   }
 
 
@@ -1294,9 +1295,9 @@ a {
   }
 
   .splide__slide img {
-    max-width: 13rem;
+    width: 14rem;
     height: 16rem;
-    padding: 0 1.25rem;
+    padding: 0 5px;
   }
 
   .splide {
