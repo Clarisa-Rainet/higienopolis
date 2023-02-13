@@ -50,15 +50,22 @@ export default function Page(props) {
           <div className="flex line"></div>
           <div className="p-4">
             <div className="rodape-title">
-              {/* Todas as imagens utilizadas nesta página são meramente ilustrativas. Possíveis alterações de projeto serão executadas de acordo
-              com o Memorial Descritivo do empreendimento. */}
-              Incorporação registrada sob Nº R.08 da matricula 77185 do oficial de registro de imóveis de Piracicaba - Estado de São Paulo, nos termos da Lei 4591/64.
+              Todas as imagens utilizadas nesta página são meramente ilustrativas. Possíveis alterações de projeto serão executadas de acordo
+              com o Memorial Descritivo do empreendimento.
             </div>
           </div>
         </div>
-        <div className="rodape-text">
-          Copywriting e desenvolvido por Huma Criativa
+
+        <div className="text-rodape">
+          Incorporação registrada sob Nº R.08 da matricula 77185 do oficial de registro de imóveis de Piracicaba - Estado de São Paulo, nos termos da Lei 4591/64.
         </div>
+        <div className="flex line-blue"></div>
+        <a className="rodape-text"
+          href="https://www.instagram.com/humacriativo.mkt/"
+          target="_blank"
+          rel="noreferrer">
+          Copywriting e desenvolvido por Huma Criativa
+        </a>
       </div>
       :
       <div className="flex flex-col">
@@ -95,15 +102,21 @@ export default function Page(props) {
           <div className="flex line"></div>
           <div className="p-4">
             <div className="rodape-title">
-              {/* Todas as imagens utilizadas nesta página são meramente ilustrativas. Possíveis alterações de projeto serão executadas de acordo
-              com o Memorial Descritivo do empreendimento. */}
-              Incorporação registrada sob Nº R.08 da matricula 77185 do oficial de registro de imóveis de Piracicaba - Estado de São Paulo, nos termos da Lei 4591/64.
+              Todas as imagens utilizadas nesta página são meramente ilustrativas. Possíveis alterações de projeto serão executadas de acordo
+              com o Memorial Descritivo do empreendimento.
             </div>
           </div>
         </div>
-        <div className="rodape-text">
-          Copywriting e desenvolvido por Huma Criativa
+        <div className="text-rodape">
+          Incorporação registrada sob Nº R.08 da matricula 77185 do oficial de registro de imóveis de Piracicaba - Estado de São Paulo, nos termos da Lei 4591/64.
         </div>
+        <div className="flex line-blue"></div>
+        <a className="rodape-text"
+          href="https://www.instagram.com/humacriativo.mkt/"
+          target="_blank"
+          rel="noreferrer">
+          Copywriting e desenvolvido por Huma Criativa
+        </a>
       </div>
   )
 }

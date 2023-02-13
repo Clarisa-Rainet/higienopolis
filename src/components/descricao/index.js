@@ -18,7 +18,7 @@ export default function Page(props) {
   const [isMobile] = useState(utils.mobile());
   const arrayFotos = [
     { foto: quarto, descricao: 'Unidades de 3 dorms.' },
-    { foto: area, descricao: '88.42m² de área privativa' },
+    { foto: area, descricao: '88 m² de área privativa' },
     { foto: vagas, descricao: '2 vagas na garagem' },
     { foto: suite, descricao: 'Unidades com 1 suite' },
   ]
@@ -62,7 +62,7 @@ export default function Page(props) {
             <div className="flex-col descricao-item">
               <img src={area} className="descricao-box" />
               <div className="flex descricao-text">
-                88.42m² de <br />área privativa
+                88 m² de <br />área privativa
               </div>
             </div>
 
@@ -118,7 +118,7 @@ export default function Page(props) {
                   <div className="flex-col descricao-item">
                     <img src={area} className="descricao-box" />
                     <div className="flex descricao-text">
-                      88.42m² de <br />área privativa
+                      88 m² de <br />área privativa
                     </div>
                   </div>
 
